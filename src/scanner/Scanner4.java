@@ -20,21 +20,48 @@ import java.util.Scanner;
  * 578.000
  */
 
+// 처음 내가 짠 코드
+//public class Scanner4 {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//
+//        double a = sc.nextDouble();
+//        double b = sc.nextDouble();
+//        double c = sc.nextDouble();
+//
+//        if ((a < 1 || a > 1000) || (b < 1 || b > 1000) || (c < 1 || c > 1000)) {
+//            System.out.println("Invalid input");
+//            return;
+//        }
+//
+//        System.out.printf("%.3f\n", a);
+//        System.out.printf("%.3f\n", b);
+//        System.out.printf("%.3f\n", c);
+//    }
+//}
+
+import java.util.Scanner;
+
 public class Scanner4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        double a = sc.nextDouble();
-        double b = sc.nextDouble();
-        double c = sc.nextDouble();
+        // 변수 선언
+        double a, b, c;
 
-        if( a < 1 || a > 1000 || b < 1 || b > 1000 || c < 1 || c > 1000 ) {
+        // 입력
+        a = sc.nextDouble();
+        b = sc.nextDouble();
+        c = sc.nextDouble();
+
+        // 조건
+        if ((a < 0 || a > 1000) || (b < 0 || b > 1000) || (c < 0 || c > 1000)) {
             System.out.println("Invalid input");
             return;
         }
 
-        System.out.printf("%.3f\n", a);
-        System.out.printf("%.3f\n", b);
-        System.out.printf("%.3f\n", c);
+        // 출력
+        System.out.printf("%.3f\n%.3f\n%.3f", a, b, c);
     }
 }
+
