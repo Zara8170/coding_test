@@ -1,4 +1,4 @@
-package chapter3;
+package chapter3.if_quiz;
 
 import java.util.Scanner;
 
