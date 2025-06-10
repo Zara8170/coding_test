@@ -48,58 +48,78 @@ import java.util.Scanner;
  * 0
  */
 
+//public class IfQuiz3 {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int A = sc.nextInt();
+//        int B = sc.nextInt();
+//
+//        if((A < 0 || A > 100) || (B < 0 || B > 100)) {
+//            System.out.println("Invalid input");
+//            return;
+//        }
+//
+//        if (A >= B) {
+//            System.out.println(1);
+//        } else {
+//            System.out.println(0);
+//        }
+//
+//        if (A > B) {
+//            System.out.println(1);
+//        } else {
+//            System.out.println(0);
+//        }
+//
+//        if (A <= B) {
+//            System.out.println(1);
+//        } else {
+//            System.out.println(0);
+//        }
+//
+//        if (A < B) {
+//            System.out.println(1);
+//        } else {
+//            System.out.println(0);
+//        }
+//
+//        if (A == B) {
+//            System.out.println(1);
+//        } else {
+//            System.out.println(0);
+//        }
+//
+//        if (A != B) {
+//            System.out.println(1);
+//        } else {
+//            System.out.println(0);
+//        }
+//
+//        System.out.println(A >= B);
+//        System.out.println(A > B);
+//        System.out.println(A < B);
+//        System.out.println(A <= B);
+//        System.out.println(A == B);
+//        System.out.println(A != B);
+//    }
+//}
+
 public class IfQuiz3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int A = sc.nextInt();
         int B = sc.nextInt();
 
-        if((A < 0 || A > 100) || (B < 0 || B > 100)) {
+        if ((A < 0 || A > 100) || (B < 0 || B > 100)) {
             System.out.println("Invalid input");
             return;
         }
 
-        if (A >= B) {
-            System.out.println(1);
-        } else {
-            System.out.println(0);
-        }
-
-        if (A > B) {
-            System.out.println(1);
-        } else {
-            System.out.println(0);
-        }
-
-        if (A <= B) {
-            System.out.println(1);
-        } else {
-            System.out.println(0);
-        }
-
-        if (A < B) {
-            System.out.println(1);
-        } else {
-            System.out.println(0);
-        }
-
-        if (A == B) {
-            System.out.println(1);
-        } else {
-            System.out.println(0);
-        }
-
-        if (A != B) {
-            System.out.println(1);
-        } else {
-            System.out.println(0);
-        }
-
-        System.out.println(A >= B);
-        System.out.println(A > B);
-        System.out.println(A < B);
-        System.out.println(A <= B);
-        System.out.println(A == B);
-        System.out.println(A != B);
+        System.out.println(A >= B ? 1 : 0);
+        System.out.println(A > B ? 1 : 0);
+        System.out.println(A <= B ? 1 : 0);
+        System.out.println(A < B ? 1 : 0);
+        System.out.println(A == B ? 1 : 0);
+        System.out.println(A != B ? 1 : 0);
     }
 }
