@@ -1,4 +1,4 @@
-package scanner;
+package chapter2;
 
 import java.util.Scanner;
 
@@ -40,7 +40,6 @@ import java.util.Scanner;
 //    }
 //}
 
-import java.util.Scanner;
 
 public class Scanner4 {
     public static void main(String[] args) {
