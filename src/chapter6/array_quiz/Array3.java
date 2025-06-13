@@ -1,8 +1,5 @@
 package chapter6.array_quiz;
 
-import java.io.IOException;
-import java.util.Scanner;
-
 /**
  * N개의 원소가 주어졌을 때, 주어진 N개의 원소에 각각 제곱을 하여 출력하는 프로그램을 작성해보세요.
  * 입력
@@ -66,8 +63,6 @@ public class Array3 {
     public static void main(String[] args)throws Exception {
         // Please write your code here.
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        int N = Integer.parseInt(br.readLine());
 
         String[] inputs = br.readLine().split(" ");
         int[] numbers = new int[inputs.length];

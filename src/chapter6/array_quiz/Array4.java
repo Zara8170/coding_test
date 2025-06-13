@@ -90,8 +90,6 @@ public class Array4 {
         for(int num : numbers){
             System.out.print(num+" ");
         }
-
-
     }
 }
 

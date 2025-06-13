@@ -55,7 +55,6 @@ import java.util.Scanner;
 public class String2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
         String[] input = br.readLine().split(" ");
         String first_word = input[0];
         String second_word = input[1];
