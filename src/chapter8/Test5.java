@@ -40,7 +40,6 @@ public class Test5 {
 
         int a = Integer.parseInt(input[0]);
         int b = Integer.parseInt(input[1]);
-
         int total = 0;
 
         for(int i = a; i <= b; i++) {
