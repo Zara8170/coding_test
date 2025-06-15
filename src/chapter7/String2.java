@@ -3,8 +3,6 @@ package chapter7;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.StreamTokenizer;
-import java.util.Scanner;
 
 /**
  * 두 개의 단어가 주어지면 길이가 더 긴 단어와 길이를 출력하는 프로그램을 작성해보세요.
