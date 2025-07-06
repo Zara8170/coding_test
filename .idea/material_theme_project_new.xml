@@ -3,7 +3,13 @@
   <component name="MaterialThemeProjectNewConfig">
     <option name="metadata">
       <MTProjectMetadataState>
+<<<<<<< HEAD
         <option name="userId" value="-2cfef5bc:197806a2d8b:-7ffd" />
+=======
+        <option name="migrated" value="true" />
+        <option name="pristineConfig" value="false" />
+        <option name="userId" value="123c3d30:19598c3287c:-7ff7" />
+>>>>>>> a27b60a (코테 문제들)
       </MTProjectMetadataState>
     </option>
   </component>

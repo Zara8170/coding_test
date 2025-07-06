@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/coding_test1.iml" filepath="$PROJECT_DIR$/coding_test1.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/coding_test.iml" filepath="$PROJECT_DIR$/coding_test.iml" />
+>>>>>>> a27b60a (코테 문제들)
     </modules>
   </component>
 </project>
