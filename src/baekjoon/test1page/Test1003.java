@@ -1,11 +1,9 @@
 package baekjoon.test1page;
 
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 
-// 첫번째 풀이
+//첫번째 풀이
 //public class Test1003 {
 //    static StringBuilder sb = new StringBuilder();
 //    static int N;
