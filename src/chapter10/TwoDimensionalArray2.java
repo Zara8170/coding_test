@@ -33,35 +33,6 @@ import java.util.StringTokenizer;
  * 56 72 90
  */
 
-//public class TwoDimensionalArray2 {
-//    public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        int cols = 3;
-//        int rows = 3;
-//        int[][] arr1 = new int[rows][cols];
-//        int[][] arr2 = new int[rows][cols];
-//
-//        for (int i = 0; i < rows; i++) {
-//            for (int j = 0; j < cols; j++) {
-//                arr1[i][j] = sc.nextInt();
-//            }
-//        }
-//
-//        for (int i = 0; i < rows; i++) {
-//            for (int j = 0; j < cols; j++) {
-//                arr2[i][j] = sc.nextInt();
-//            }
-//        }
-//
-//        for (int i = 0; i < rows; i++) {
-//            for (int j = 0; j < cols; j++) {
-//                System.out.print(arr1[i][j] * arr2[i][j] + " ");
-//            }
-//            System.out.println();
-//        }
-//    }
-//}
-
 public class TwoDimensionalArray2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
