@@ -31,24 +31,6 @@ import java.util.StringTokenizer;
  * 3 3 3
  */
 
-//public class TwoDimensionalArray1 {
-//    public static void main(String[] args){
-//        Scanner sc = new Scanner(System.in);
-//        int cols = 3;
-//        int rows = 3;
-//        int[][] arr = new int[rows][cols];
-//
-//        for (int i = 0; i < cols; i++) {
-//            for (int j = 0; j < rows; j++) {
-//                arr[i][j] = sc.nextInt() * 3;
-//                System.out.print(arr[i][j] + " ");
-//            }
-//            System.out.println();
-//        }
-//
-//    }
-//}
-
 public class TwoDimensionalArray1 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
